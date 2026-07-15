@@ -1,4 +1,4 @@
-# ChypSnipe
+# TOPS
 
 ChypSnipe is a collection of hardware-security research projects targeting FPGA-based systems. The repository is organized into three independent modules, each studying a different attack vector or characterization technique.
 
