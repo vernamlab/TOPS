@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>sys_clk_orig</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port sys_clk_orig:CLK_SYS</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sys_clk_orig/pins/sys_clk_orig:CLK_SYS</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Out-of-date Instance</message>
+    <detail>Component definition is not consistent for instance PF_OSC_C0_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sys_clk_orig/instances/PF_OSC_C0_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>PF_OSC_C0_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sys_clk_orig/instances/PF_OSC_C0_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin PF_OSC_C0_0:RCOSC_160MHZ_GL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sys_clk_orig/pins/PF_OSC_C0_0:RCOSC_160MHZ_GL</crossprobe>
+  </drc>
+</drcreport>

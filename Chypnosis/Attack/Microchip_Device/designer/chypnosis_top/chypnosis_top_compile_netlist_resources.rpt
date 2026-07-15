@@ -1,0 +1,146 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+Date: Wed Jun 11 15:44:15 2025
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS095T     |
+| Package                | FCSG325      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+-----------------------------------------------------------------------------------+
+| Topcell | chypnosis_top                                                                     |
+| Format  | Verilog                                                                           |
+| Source  | C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\synthesis\chypnosis_top.vm |
++---------+-----------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 140  | 93516 | 0.15       |
+| DFF                       | 80   | 93516 | 0.09       |
+| I/O Register              | 0    | 240   | 0.00       |
+| User I/O                  | 16   | 80    | 20.00      |
+| -- Single-ended I/O       | 16   | 80    | 20.00      |
+| -- Differential I/O Pairs | 0    | 40    | 0.00       |
+| uSRAM                     | 0    | 876   | 0.00       |
+| LSRAM                     | 0    | 308   | 0.00       |
+| Math                      | 0    | 292   | 0.00       |
+| H-Chip Global             | 1    | 48    | 2.08       |
+| PLL                       | 0    | 8     | 0.00       |
+| DLL                       | 0    | 8     | 0.00       |
+| TAMPER                    | 1    | 1     | 100.00     |
+| Transceiver Lanes         | 0    | 2     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 140  | 80  |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 140  | 80  |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 10     | 2    |
+| 30     | 1    |
+| Total  | 3    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 8            | 0           | 0               |
+| Output I/O                    | 8            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 80     | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------+
+| Fanout | Type    | Name                                                               |
++--------+---------+--------------------------------------------------------------------+
+| 46     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q2_Z          |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q2            |
+| 33     | INT_NET | Net   : SWITCH1_c_i                                                |
+|        |         | Driver: SWITCH1_ibuf_RNI8IHO1                                      |
+| 18     | INT_NET | Net   : NN_2                                                       |
+|        |         | Driver: DIP_ibuf[0]                                                |
+| 13     | INT_NET | Net   : NN_4                                                       |
+|        |         | Driver: DIP_ibuf[2]                                                |
+| 11     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4_Z       |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4         |
+| 10     | INT_NET | Net   : NN_3                                                       |
+|        |         | Driver: DIP_ibuf[1]                                                |
+| 10     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count12_Z        |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count12          |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_fast_Z |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_fast   |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r_fast_Z   |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r_fast     |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_3_Z        |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_3          |
++--------+---------+--------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------+
+| Fanout | Type    | Name                                                               |
++--------+---------+--------------------------------------------------------------------+
+| 46     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q2_Z          |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q2            |
+| 33     | INT_NET | Net   : SWITCH1_c_i                                                |
+|        |         | Driver: SWITCH1_ibuf_RNI8IHO1                                      |
+| 18     | INT_NET | Net   : NN_2                                                       |
+|        |         | Driver: DIP_ibuf[0]                                                |
+| 13     | INT_NET | Net   : NN_4                                                       |
+|        |         | Driver: DIP_ibuf[2]                                                |
+| 11     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4_Z       |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4         |
+| 10     | INT_NET | Net   : NN_3                                                       |
+|        |         | Driver: DIP_ibuf[1]                                                |
+| 10     | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count12_Z        |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count12          |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_fast_Z |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_fast   |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r_fast_Z   |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r_fast     |
+| 8      | INT_NET | Net   : t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_3_Z        |
+|        |         | Driver: t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_3          |
++--------+---------+--------------------------------------------------------------------+
+

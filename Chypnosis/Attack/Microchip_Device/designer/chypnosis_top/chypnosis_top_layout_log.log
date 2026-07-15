@@ -1,0 +1,75 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : OFF
+Driver Replication       : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\constraint\io\disco_constr.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  Globals Assigner found no global involed in the problem.
+Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.2.0 
+Design: chypnosis_top                   Started: Wed Jun 11 15:44:20 2025
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 1 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: chypnosis_top                   
+Finished: Wed Jun 11 15:44:30 2025
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:10
+Total Memory Usage: 803.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\designer\chypnosis_top\chypnosis_topStarted: Wed Jun 11 15:44:33 2025
+
+
+Router completed successfully.
+
+Design: C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\designer\chypnosis_top\chypnosis_top
+Finished: Wed Jun 11 15:44:44 2025
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 1732.2 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 140  | 93516 | 0.15       |
+| DFF           | 80   | 93516 | 0.09       |
+| I/O Register  | 0    | 80    | 0.00       |
+| Logic Element | 147  | 93516 | 0.16       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  16   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.

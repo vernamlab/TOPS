@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":229:7:229:10|Synthesizing module BUFD in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":4:7:4:9|Synthesizing module SLE in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":84:7:84:10|Synthesizing module ARI1 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":102:7:102:10|Synthesizing module CFG2 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":96:7:96:10|Synthesizing module CFG3 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":90:7:90:10|Synthesizing module CFG4 in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v":4466:7:4466:19|Synthesizing module VOLTAGEDETECT in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v":4057:7:4057:12|Synthesizing module TAMPER in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\Actel\DirectCore\CORESMIP_PF\2.0.100\rtl\vlog\core_obfuscated\coresmip_pf.v":18:7:18:17|Synthesizing module CORESMIP_PF in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\CORESMIP_PF_C0\CORESMIP_PF_C0.v":29:7:29:20|Synthesizing module CORESMIP_PF_C0 in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\tamperGuy\tamperGuy.v":9:7:9:15|Synthesizing module tamperGuy in library work.
+@N: CG364 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v":10:7:10:19|Synthesizing module chypnosis_top in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,98 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.2 2025.2.0.14
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+
+# Date generated: Thu May 28 15:40:41 2026 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+#set_io -port_name clear_btn  \
+    #-pin_name U17            \
+    #-fixed true              \
+    #-DIRECTION INPUT
+
+
+set_io -port_name clk  \
+    -pin_name D18      \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name clk_out  \
+    -pin_name D17          \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+#set_io -port_name {debug_leds[0]}  \
+    #-pin_name U20                  \
+    #-fixed true                    \
+    #-DIRECTION OUTPUT
+#
+#
+#set_io -port_name {debug_leds[1]}  \
+    #-pin_name U21                  \
+    #-fixed true                    \
+    #-DIRECTION OUTPUT
+
+
+#set_io -port_name led_heartbeat  \
+    #-pin_name T18                \
+    #-fixed true                  \
+    #-DIRECTION OUTPUT
+
+
+set_io -port_name ro_out  \
+    -pin_name F20         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name rst  \
+    -pin_name A15      \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name temp_high  \
+    -pin_name V16            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name temp_low  \
+    -pin_name U15           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name uart_rx_line  \
+    -pin_name B17               \
+    -fixed true                 \
+    -DIRECTION INPUT
+
+
+set_io -port_name uart_tx_line  \
+    -pin_name B19               \
+    -fixed true                 \
+    -DIRECTION OUTPUT
+

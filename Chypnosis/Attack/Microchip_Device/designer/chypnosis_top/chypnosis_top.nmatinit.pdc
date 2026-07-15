@@ -1,0 +1,223 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.2 2024.2.0.13
+
+# Design Name: chypnosis_top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Wed Jun 11 15:44:44 2025 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name DIP\[0\] -DIRECTION INPUT -pin_name U17 -fixed false
+set_io -port_name DIP\[1\] -DIRECTION INPUT -pin_name Y16 -fixed false
+set_io -port_name DIP\[2\] -DIRECTION INPUT -pin_name R17 -fixed false
+set_io -port_name DIP\[3\] -DIRECTION INPUT -pin_name AA15 -fixed false
+set_io -port_name DIP\[4\] -DIRECTION INPUT -pin_name AA20 -fixed false
+set_io -port_name LED\[0\] -DIRECTION OUTPUT -pin_name T18 -fixed false
+set_io -port_name LED\[1\] -DIRECTION OUTPUT -pin_name V17 -fixed false
+set_io -port_name LED\[2\] -DIRECTION OUTPUT -pin_name U20 -fixed false
+set_io -port_name LED\[3\] -DIRECTION OUTPUT -pin_name U21 -fixed false
+set_io -port_name LED\[4\] -DIRECTION OUTPUT -pin_name AA18 -fixed false
+set_io -port_name LED\[5\] -DIRECTION OUTPUT -pin_name V16 -fixed false
+set_io -port_name LED\[6\] -DIRECTION OUTPUT -pin_name U15 -fixed false
+set_io -port_name SWITCH1 -DIRECTION INPUT -pin_name T19 -fixed false
+set_io -port_name SWITCH2 -DIRECTION INPUT -pin_name U18 -fixed false
+set_io -port_name clk -DIRECTION INPUT -pin_name V18 -fixed false
+set_io -port_name heartbeat -DIRECTION OUTPUT -pin_name W20 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name LED_5\[3\] -fixed false -x 707 -y 6
+set_location -inst_name count\[27\] -fixed false -x 702 -y 13
+set_location -inst_name LED_2\[2\] -fixed false -x 718 -y 6
+set_location -inst_name count\[25\] -fixed false -x 700 -y 13
+set_location -inst_name count\[17\] -fixed false -x 692 -y 13
+set_location -inst_name count\[15\] -fixed false -x 690 -y 13
+set_location -inst_name LED_6\[2\] -fixed false -x 704 -y 9
+set_location -inst_name LED_1\[3\] -fixed false -x 687 -y 6
+set_location -inst_name count\[9\] -fixed false -x 684 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[8\] -fixed false -x 742 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un1_DELAY_ZEROIZE_N_q4\[0\] -fixed false -x 749 -y 9
+set_location -inst_name LED_6\[1\] -fixed false -x 689 -y 6
+set_location -inst_name LED_cZ\[5\] -fixed false -x 709 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[5\] -fixed false -x 1133 -y 57
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/TAMPER_MACRO_RNI83MT_1 -fixed false -x 698 -y 6
+set_location -inst_name LED_4\[2\] -fixed false -x 710 -y 9
+set_location -inst_name LED_cZ\[4\] -fixed false -x 702 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_RNO\[1\] -fixed false -x 733 -y 6
+set_location -inst_name LED_2\[1\] -fixed false -x 705 -y 6
+set_location -inst_name count\[8\] -fixed false -x 683 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_Z -fixed false -x 742 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[6\] -fixed false -x 736 -y 7
+set_location -inst_name LED_3\[1\] -fixed false -x 693 -y 6
+set_location -inst_name LED_4\[3\] -fixed false -x 717 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[8\] -fixed false -x 1130 -y 57
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[8\] -fixed false -x 1130 -y 58
+set_location -inst_name DIP_ibuf_RNIENRVB_0\[3\] -fixed false -x 704 -y 6
+set_location -inst_name count\[20\] -fixed false -x 695 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO -fixed false -x 685 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT_Z -fixed false -x 1149 -y 58
+set_location -inst_name count\[10\] -fixed false -x 685 -y 13
+set_location -inst_name LED_cZ\[1\] -fixed false -x 701 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_N_q4 -fixed false -x 751 -y 10
+set_location -inst_name count\[5\] -fixed false -x 680 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[3\] -fixed false -x 740 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_q2 -fixed false -x 753 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_P_q1 -fixed false -x 744 -y 10
+set_location -inst_name count\[4\] -fixed false -x 679 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q2 -fixed false -x 1142 -y 58
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/ERASE_P_q1 -fixed false -x 700 -y 10
+set_location -inst_name LED_0\[0\] -fixed false -x 717 -y 6
+set_location -inst_name count\[22\] -fixed false -x 697 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/TAMPER_MACRO_RNI83MT -fixed false -x 703 -y 6
+set_location -inst_name LED_1\[1\] -fixed false -x 691 -y 6
+set_location -inst_name count\[12\] -fixed false -x 687 -y 13
+set_location -inst_name count\[0\] -fixed false -x 672 -y 13
+set_location -inst_name sc_reg -fixed false -x 693 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[0\] -fixed false -x 1131 -y 57
+set_location -inst_name vl_reg -fixed false -x 692 -y 7
+set_location -inst_name LED_4\[0\] -fixed false -x 711 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[3\] -fixed false -x 1146 -y 57
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[4\] -fixed false -x 741 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[7\] -fixed false -x 743 -y 7
+set_location -inst_name LED_5\[0\] -fixed false -x 716 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[5\] -fixed false -x 735 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/ERASE_N_q2 -fixed false -x 704 -y 10
+set_location -inst_name I_1 -fixed false -x 1152 -y 0
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_q1 -fixed false -x 1140 -y 58
+set_location -inst_name LED_3\[0\] -fixed false -x 692 -y 6
+set_location -inst_name count\[23\] -fixed false -x 698 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[1\] -fixed false -x 1135 -y 58
+set_location -inst_name count\[13\] -fixed false -x 688 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_P_q2 -fixed false -x 752 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_P_q3 -fixed false -x 748 -y 10
+set_location -inst_name LED_2\[0\] -fixed false -x 715 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[3\] -fixed false -x 740 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_Z -fixed false -x 707 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[5\] -fixed false -x 1133 -y 58
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_q1 -fixed false -x 687 -y 7
+set_location -inst_name count_RNO\[0\] -fixed false -x 672 -y 12
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_0 -fixed false -x 712 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[1\] -fixed false -x 733 -y 7
+set_location -inst_name count\[1\] -fixed false -x 676 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_q2 -fixed false -x 694 -y 7
+set_location -inst_name count\[3\] -fixed false -x 678 -y 13
+set_location -inst_name count\[29\] -fixed false -x 704 -y 13
+set_location -inst_name count\[19\] -fixed false -x 694 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_3 -fixed false -x 1129 -y 57
+set_location -inst_name LED_5\[2\] -fixed false -x 713 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_RNO\[0\] -fixed false -x 732 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[3\] -fixed false -x 1146 -y 58
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT_0 -fixed false -x 1149 -y 57
+set_location -inst_name LED_6\[0\] -fixed false -x 695 -y 6
+set_location -inst_name SWITCH1_ibuf_RNI8IHO1 -fixed false -x 673 -y 6
+set_location -inst_name sc_regce -fixed false -x 679 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_2 -fixed false -x 688 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4 -fixed false -x 738 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_1 -fixed false -x 686 -y 6
+set_location -inst_name LED_2\[3\] -fixed false -x 702 -y 6
+set_location -inst_name vl_regce -fixed false -x 690 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_RNO\[2\] -fixed false -x 734 -y 6
+set_location -inst_name DIP_ibuf_RNI3QSV8\[3\] -fixed false -x 706 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/RESET_N_bufd -fixed false -x 1231 -y 117
+set_location -inst_name LED_8\[2\] -fixed false -x 715 -y 9
+set_location -inst_name LED_4\[5\] -fixed false -x 716 -y 9
+set_location -inst_name LED_3\[2\] -fixed false -x 697 -y 9
+set_location -inst_name LED_cZ\[3\] -fixed false -x 718 -y 9
+set_location -inst_name LED_cZ\[0\] -fixed false -x 712 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_P_q4 -fixed false -x 749 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[5\] -fixed false -x 735 -y 6
+set_location -inst_name LED_8\[4\] -fixed false -x 699 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4_5 -fixed false -x 737 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/ERASE_N_q1 -fixed false -x 697 -y 10
+set_location -inst_name LED_5\[1\] -fixed false -x 701 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[7\] -fixed false -x 743 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[6\] -fixed false -x 736 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[0\] -fixed false -x 732 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_4 -fixed false -x 714 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[9\] -fixed false -x 1145 -y 57
+set_location -inst_name LED_cZ\[2\] -fixed false -x 714 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[9\] -fixed false -x 1145 -y 58
+set_location -inst_name count\[28\] -fixed false -x 703 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/TAMPER_MACRO -fixed false -x 649 -y 5
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1 -fixed false -x 685 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[4\] -fixed false -x 1138 -y 58
+set_location -inst_name count\[18\] -fixed false -x 693 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_N_q1 -fixed false -x 747 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/VOLTAGEDETECT_MACRO -fixed false -x 651 -y 4
+set_location -inst_name count\[7\] -fixed false -x 682 -y 13
+set_location -inst_name LED_6\[3\] -fixed false -x 708 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_4 -fixed false -x 1132 -y 57
+set_location -inst_name LED_4\[1\] -fixed false -x 696 -y 9
+set_location -inst_name LED_RNO\[4\] -fixed false -x 698 -y 9
+set_location -inst_name LED_3\[3\] -fixed false -x 709 -y 6
+set_location -inst_name count\[6\] -fixed false -x 681 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/HEARTBEAT4_5 -fixed false -x 1147 -y 57
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[6\] -fixed false -x 1148 -y 57
+set_location -inst_name LED_1\[2\] -fixed false -x 684 -y 6
+set_location -inst_name LED_1\[0\] -fixed false -x 694 -y 6
+set_location -inst_name LED_0\[2\] -fixed false -x 710 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout -fixed false -x 737 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_3 -fixed false -x 711 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[0\] -fixed false -x 1131 -y 58
+set_location -inst_name count\[26\] -fixed false -x 701 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_3_iv\[9\] -fixed false -x 743 -y 9
+set_location -inst_name count\[16\] -fixed false -x 691 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[6\] -fixed false -x 1148 -y 58
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r -fixed false -x 734 -y 10
+set_location -inst_name count\[2\] -fixed false -x 677 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[2\] -fixed false -x 734 -y 7
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/TAMPER_MACRO_RNI83MT_0 -fixed false -x 700 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/CRITICAL_ALARM_fast -fixed false -x 739 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q2 -fixed false -x 690 -y 7
+set_location -inst_name I_1/U0_RGB1 -fixed false -x 726 -y 69
+set_location -inst_name LED_cZ\[6\] -fixed false -x 707 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/zeroize_0_1 -fixed false -x 703 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/zeroize -fixed false -x 706 -y 10
+set_location -inst_name DIP_ibuf_RNIENRVB\[3\] -fixed false -x 705 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[8\] -fixed false -x 742 -y 7
+set_location -inst_name CFG0_GND_INST -fixed false -x 744 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[2\] -fixed false -x 1136 -y 58
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_q1 -fixed false -x 745 -y 10
+set_location -inst_name count\[21\] -fixed false -x 696 -y 13
+set_location -inst_name LED_0\[1\] -fixed false -x 699 -y 6
+set_location -inst_name count\[11\] -fixed false -x 686 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/MASTER_ALARM_q1_RNO_5 -fixed false -x 719 -y 6
+set_location -inst_name un1_DIP -fixed false -x 700 -y 9
+set_location -inst_name count\[24\] -fixed false -x 699 -y 13
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_N_q2 -fixed false -x 750 -y 10
+set_location -inst_name count\[14\] -fixed false -x 689 -y 13
+set_location -inst_name LED_8\[3\] -fixed false -x 719 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/TAMPER_MACRO_RNIO92P2 -fixed false -x 706 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/DELAY_ZEROIZE_N_q3 -fixed false -x 746 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count_RNO\[4\] -fixed false -x 741 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count12 -fixed false -x 748 -y 9
+set_location -inst_name LED_0\[3\] -fixed false -x 697 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/ERASE_P_q2 -fixed false -x 703 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count\[7\] -fixed false -x 1144 -y 58
+set_location -inst_name LED_8\[1\] -fixed false -x 696 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_timeout4_6 -fixed false -x 739 -y 6
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/heartbeat_count_3\[7\] -fixed false -x 1144 -y 57
+set_location -inst_name LED_8\[0\] -fixed false -x 713 -y 9
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/wdog_count\[9\] -fixed false -x 743 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/USER_ALARM_r_fast -fixed false -x 741 -y 10
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un3_heartbeat_count_1_s_1_31 -fixed false -x 1134 -y 57
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un1_wdog_count_10_cry_0 -fixed false -x 733 -y 9
+set_location -inst_name count_s_45 -fixed false -x 675 -y 12
+set_location -inst_name I_1/U0_RGB1_RGB0 -fixed false -x 720 -y 15
+set_location -inst_name I_1/U0_RGB1_RGB1 -fixed false -x 726 -y 15
+set_location -inst_name count_s_45_CC_0 -fixed false -x 675 -y 14
+set_location -inst_name count_s_45_CC_1 -fixed false -x 684 -y 14
+set_location -inst_name count_s_45_CC_2 -fixed false -x 696 -y 14
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un1_wdog_count_10_cry_0_CC_0 -fixed false -x 733 -y 11
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un3_heartbeat_count_1_s_1_31_CC_0 -fixed false -x 1134 -y 59
+set_location -inst_name t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/un3_heartbeat_count_1_s_1_31_CC_1 -fixed false -x 1140 -y 59

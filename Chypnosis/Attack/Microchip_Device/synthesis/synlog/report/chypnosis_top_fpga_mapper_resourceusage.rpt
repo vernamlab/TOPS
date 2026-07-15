@@ -1,0 +1,42 @@
+Resource Usage Report for chypnosis_top 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+BUFD            1 use
+CLKINT          2 uses
+TAMPER          1 use
+VOLTAGEDETECT   1 use
+CFG1           2 uses
+CFG2           4 uses
+CFG3           51 uses
+CFG4           31 uses
+
+Carry cells:
+ARI1            50 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            80 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 16
+I/O primitives: 16
+INBUF          8 uses
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    138
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  80 + 0 + 0 + 0 = 80;
+Total number of LUTs after P&R:  138 + 0 + 0 + 0 = 138;
+

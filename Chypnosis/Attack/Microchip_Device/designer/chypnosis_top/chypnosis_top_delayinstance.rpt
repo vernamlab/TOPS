@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Wed Jun 11 15:44:44 2025
+Product: Designer
+Release: v2024.2
+Version: 2024.2.0.13
+Design Name: chypnosis_top
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

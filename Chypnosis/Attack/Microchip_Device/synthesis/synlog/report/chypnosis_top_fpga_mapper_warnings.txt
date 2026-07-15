@@ -1,0 +1,4 @@
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT246 :"c:\users\kylem\documents\phd_shite\polarfire\chypnosis\component\actel\directcore\coresmip_pf\2.0.100\rtl\vlog\core_obfuscated\coresmip_pf.v":1368:9:1368:20|Blackbox TAMPER is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\kylem\documents\phd_shite\polarfire\chypnosis\component\actel\directcore\coresmip_pf\2.0.100\rtl\vlog\core_obfuscated\coresmip_pf.v":1350:16:1350:34|Blackbox VOLTAGEDETECT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock chypnosis_top|clk with period 10.00ns. Please declare a user-defined clock on port clk.

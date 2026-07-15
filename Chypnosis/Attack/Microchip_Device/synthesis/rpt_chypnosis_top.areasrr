@@ -1,0 +1,148 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: C:\Microchip\Libero_SoC_v2024.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-D8OI0TE
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS095TFCVG784-1 (Microchip)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   chypnosis_top   ########
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      80                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block chypnosis_top:	80 (32.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           88                 100 %                
+ARI1          50                 100 %                
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block chypnosis_top:	141 (57.09 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block chypnosis_top:	2 (0.81 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       16                 100 %                
+=================================================
+Total IO PADS in the block chypnosis_top:	16 (6.48 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   tamperGuy   ########
+Instance path:   chypnosis_top.tamperGuy                       
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 60 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block chypnosis_top.tamperGuy:	48 (19.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           38                 43.2 %               
+ARI1          20                 40 %                 
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block chypnosis_top.tamperGuy:	61 (24.70 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block chypnosis_top.tamperGuy:	1 (0.40 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CORESMIP_PF_C0   ########
+Instance path:   tamperGuy.CORESMIP_PF_C0                           
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 60 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block tamperGuy.CORESMIP_PF_C0:	48 (19.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           38                 43.2 %               
+ARI1          20                 40 %                 
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block tamperGuy.CORESMIP_PF_C0:	61 (24.70 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block tamperGuy.CORESMIP_PF_C0:	1 (0.40 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1   ########
+Instance path:   CORESMIP_PF_C0.CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1                      
+=====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 60 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CORESMIP_PF_C0.CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1:	48 (19.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           38                 43.2 %               
+ARI1          20                 40 %                 
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block CORESMIP_PF_C0.CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1:	61 (24.70 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block CORESMIP_PF_C0.CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1:	1 (0.40 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

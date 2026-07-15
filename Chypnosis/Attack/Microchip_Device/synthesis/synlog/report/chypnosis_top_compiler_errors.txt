@@ -1,0 +1,2 @@
+@E: CG906 :"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v":56:14:56:19|Reference to unknown variable reg_in.
+

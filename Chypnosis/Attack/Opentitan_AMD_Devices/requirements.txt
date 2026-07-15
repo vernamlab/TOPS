@@ -1,0 +1,10 @@
+chipwhisperer
+jupyter
+matplotlib
+numpy
+pandas
+pycryptodome
+pyserial
+pyvisa
+tqdm
+

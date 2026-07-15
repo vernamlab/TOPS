@@ -1,0 +1,138 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+Date: Wed Jun 11 16:25:29 2025
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS095T     |
+| Package                | FCSG325      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+---------------------------------------------------------------------+
+| Topcell | top                                                                 |
+| Format  | Verilog                                                             |
+| Source  | C:\Users\KyleM\Documents\phd_shite\polarfire\BTCMR\synthesis\top.vm |
++---------+---------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 173  | 93516 | 0.18       |
+| DFF                       | 256  | 93516 | 0.27       |
+| I/O Register              | 0    | 240   | 0.00       |
+| User I/O                  | 12   | 80    | 15.00      |
+| -- Single-ended I/O       | 12   | 80    | 15.00      |
+| -- Differential I/O Pairs | 0    | 40    | 0.00       |
+| uSRAM                     | 0    | 876   | 0.00       |
+| LSRAM                     | 0    | 308   | 0.00       |
+| Math                      | 0    | 292   | 0.00       |
+| H-Chip Global             | 1    | 48    | 2.08       |
+| PLL                       | 1    | 8     | 12.50      |
+| DLL                       | 0    | 8     | 0.00       |
+| Transceiver Lanes         | 0    | 2     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| ICB_CLKINT                | 1    | 68    | 1.47       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 173  | 256 |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 173  | 256 |
++-----------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 9            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------+
+| Fanout | Type    | Name                                                      |
++--------+---------+-----------------------------------------------------------+
+| 257    | INT_NET | Net   : sys_clk                                           |
+|        |         | Driver: PLL_inst/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1 |
+|        |         | Source: NETLIST                                           |
++--------+---------+-----------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------+
+| Fanout | Type    | Name                                                         |
++--------+---------+--------------------------------------------------------------+
+| 257    | INT_NET | Net   : DIP1_c                                               |
+|        |         | Driver: DIP1_ibuf                                            |
+| 256    | INT_NET | Net   : un1_locked_1_Z                                       |
+|        |         | Driver: un1_locked_1                                         |
+| 128    | INT_NET | Net   : CFG0_GND_INST_NET                                    |
+|        |         | Driver: CFG0_GND_INST                                        |
+| 2      | INT_NET | Net   : locked                                               |
+|        |         | Driver: PLL_inst/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0          |
+| 1      | INT_NET | Net   : store[127]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[127].un1144_out |
+| 1      | INT_NET | Net   : store[126]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[126].un1135_out |
+| 1      | INT_NET | Net   : store[125]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[125].un1126_out |
+| 1      | INT_NET | Net   : store[124]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[124].un1117_out |
+| 1      | INT_NET | Net   : store[123]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[123].un1108_out |
+| 1      | INT_NET | Net   : store[122]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[122].un1099_out |
++--------+---------+--------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------+
+| Fanout | Type    | Name                                                         |
++--------+---------+--------------------------------------------------------------+
+| 257    | INT_NET | Net   : DIP1_c                                               |
+|        |         | Driver: DIP1_ibuf                                            |
+| 256    | INT_NET | Net   : un1_locked_1_Z                                       |
+|        |         | Driver: un1_locked_1                                         |
+| 128    | INT_NET | Net   : CFG0_GND_INST_NET                                    |
+|        |         | Driver: CFG0_GND_INST                                        |
+| 2      | INT_NET | Net   : locked                                               |
+|        |         | Driver: PLL_inst/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0          |
+| 1      | INT_NET | Net   : store[127]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[127].un1144_out |
+| 1      | INT_NET | Net   : store[126]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[126].un1135_out |
+| 1      | INT_NET | Net   : store[125]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[125].un1126_out |
+| 1      | INT_NET | Net   : store[124]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[124].un1117_out |
+| 1      | INT_NET | Net   : store[123]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[123].un1108_out |
+| 1      | INT_NET | Net   : store[122]                                           |
+|        |         | Driver: CMR/complementary_masked_clr_reg_gen[122].un1099_out |
++--------+---------+--------------------------------------------------------------+
+

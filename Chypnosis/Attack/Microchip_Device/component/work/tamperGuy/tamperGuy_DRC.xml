@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>tamperGuy</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESMIP_PF_C0_0:VOLT_DETECT_1P8_HIGH</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/tamperGuy/pins/CORESMIP_PF_C0_0:VOLT_DETECT_1P8_HIGH</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESMIP_PF_C0_0:VOLT_DETECT_1P8_LOW</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/tamperGuy/pins/CORESMIP_PF_C0_0:VOLT_DETECT_1P8_LOW</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESMIP_PF_C0_0:VOLT_DETECT_2P5_HIGH</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/tamperGuy/pins/CORESMIP_PF_C0_0:VOLT_DETECT_2P5_HIGH</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESMIP_PF_C0_0:VOLT_DETECT_2P5_LOW</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/tamperGuy/pins/CORESMIP_PF_C0_0:VOLT_DETECT_2P5_LOW</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin CORESMIP_PF_C0_0:RESET_REASON[4:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/tamperGuy/pins/CORESMIP_PF_C0_0:RESET_REASON</crossprobe>
+  </drc>
+</drcreport>

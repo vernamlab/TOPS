@@ -1,0 +1,32 @@
+# MPFS-DISCO-KIT REV 2 I/O Pin Assignments
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+
+## clock (from on-board oscillator)
+#set_io -port_name {clk}         -pin_name R18   -fixed true  -DIRECTION INPUT
+
+# clock (from SEG_DSP_IO1)
+set_io -port_name {clk}         -pin_name V18   -fixed true  -DIRECTION INPUT
+
+# pushbuttons
+set_io -port_name {SWITCH1}     -pin_name T19   -fixed true  -DIRECTION INPUT
+set_io -port_name {SWITCH2}     -pin_name U18   -fixed true  -DIRECTION INPUT
+
+# DIP switches
+set_io -port_name {DIP[0]}      -pin_name U17   -fixed true  -DIRECTION INPUT
+set_io -port_name {DIP[1]}      -pin_name Y16   -fixed true  -DIRECTION INPUT
+set_io -port_name {DIP[2]}      -pin_name R17   -fixed true  -DIRECTION INPUT
+set_io -port_name {DIP[3]}      -pin_name AA15  -fixed true  -DIRECTION INPUT
+set_io -port_name {DIP[4]}      -pin_name AA20  -fixed true  -DIRECTION INPUT
+#set_io -port_name {DIP[5]}      -pin_name Y20   -fixed true  -DIRECTION INPUT
+
+# LEDs
+set_io -port_name {LED[0]}      -pin_name T18   -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[1]}      -pin_name V17   -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[2]}      -pin_name U20   -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[3]}      -pin_name U21   -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[4]}      -pin_name AA18  -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[5]}      -pin_name V16   -fixed true  -DIRECTION OUTPUT
+set_io -port_name {LED[6]}      -pin_name U15   -fixed true  -DIRECTION OUTPUT
+
+## 7 segment display I/F connector
+set_io -port_name {heartbeat} -pin_name W20   -fixed true  -DIRECTION OUTPUT

@@ -1,0 +1,2 @@
+@E: CS204 :"C:\Microchip\Libero_SoC_v2024.2\Designer\bin\projects\BTCMR\hdl\top.v":6:7:6:12|Signal andall is missing from port list
+

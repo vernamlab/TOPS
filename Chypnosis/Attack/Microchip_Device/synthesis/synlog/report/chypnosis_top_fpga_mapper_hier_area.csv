@@ -1,0 +1,6 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. chypnosis_top, 80, 88, 50, 0, 0, 0, 0, 2, 16
+.	. tamperGuy, 48, 38, 20, 0, 0, 0, 0, 1, 0
+.	.	. CORESMIP_PF_C0, 48, 38, 20, 0, 0, 0, 0, 1, 0
+.	.	.	. CORESMIP_PF_4294967295s_1s_0s_0s_0s_4294967295s_0s_0s_4096_0_Z1, 48, 38, 20, 0, 0, 0, 0, 1, 0

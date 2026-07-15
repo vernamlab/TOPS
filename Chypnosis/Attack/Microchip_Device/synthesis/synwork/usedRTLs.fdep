@@ -1,0 +1,9 @@
+#List of actual used RTLs.
+
+File                                                                                                                                                  Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v"                                                                       verilog                      IN PROJECT
+"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\tamperGuy\tamperGuy.v"                                                      verilog                      IN PROJECT
+"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\CORESMIP_PF_C0\CORESMIP_PF_C0.v"                                            verilog                      IN PROJECT
+"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\Actel\DirectCore\CORESMIP_PF\2.0.100\rtl\vlog\core_obfuscated\coresmip_pf.v"     verilog                      IN PROJECT
+"C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v"                                                           verilog                      IN PROJECT

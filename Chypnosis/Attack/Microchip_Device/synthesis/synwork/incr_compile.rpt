@@ -1,0 +1,262 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-3
+Install: C:\Microchip\Libero_SoC_v2024.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-D8OI0TE
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 280R, Built Jun 20 2024 08:13:40, @
+
+Modified Files: 3
+FID:  path (prevtimestamp, timestamp)
+5        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\MSS_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02)
+6        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02)
+9        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 76
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+1        work.APBS.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+8        work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+9        work.CORESMIP_PF.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+10       work.CORESMIP_PF_C0.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+11       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+12       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+13       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+14       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+15       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+16       work.DLL.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+17       work.DRI.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+18       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+19       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+20       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+21       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+22       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+23       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+24       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+25       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+26       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+27       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+28       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+29       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+30       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+31       work.INIT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+32       work.IOD.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+33       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+34       work.LANERST.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+35       work.MSS.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\MSS_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+36       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+37       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+38       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+39       work.PCIE.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+40       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+41       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+42       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+43       work.PLL.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+44       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+45       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+46       work.SCB.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+47       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+48       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+49       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+50       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+51       work.TVS.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+52       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+53       work.UPROM.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+54       work.USPI.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+55       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+56       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+57       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+58       work.XCVR.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+59       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+60       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+61       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+62       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+63       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+64       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+65       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+66       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+67       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+68       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+69       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+70       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+71       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+72       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+73       work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\polarfire_syn_comps.v (2025-06-11 15:20:57, 2025-06-11 15:44:02) <-- (module definition)
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+74       work.chypnosis_top.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (module definition)
+75       work.tamperGuy.verilog may have changed because the following files changed:
+                        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\hdl\chypnosis_top.v (2025-06-11 15:20:44, 2025-06-11 15:40:21) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 7
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\generic\acg5.v (2024-07-25 11:12:34)
+1        C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\vlog\hypermods.v (2024-07-25 11:03:48)
+2        C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\vlog\scemi_objects.v (2024-07-25 11:03:48)
+3        C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-07-25 11:03:48)
+4        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\Actel\DirectCore\CORESMIP_PF\2.0.100\rtl\vlog\core_obfuscated\coresmip_pf.v (2025-05-19 15:09:52)
+7        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\CORESMIP_PF_C0\CORESMIP_PF_C0.v (2025-06-10 21:27:58)
+8        C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\component\work\tamperGuy\tamperGuy.v (2025-06-11 14:46:37)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

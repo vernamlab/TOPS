@@ -1,0 +1,68 @@
+Software Version: 2024.2.0.13
+Programmer 'E2009NRXLY' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2009NRXLY' : FlashPro5
+Opened 'C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\designer\chypnosis_top\chypnosis_top_fp\chypnosis_top.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS095T'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Users/KyleM/Documents/phd_shite/polarfire/chypnosis/designer/chypnosis_top/chypnosis_top.ppd' has been loaded successfully.
+DESIGN : chypnosis_top;  CHECKSUM : CC0E;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E2009NRXLY' : Scan Chain...
+Programmer 'E2009NRXLY' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2009NRXLY' : Check Chain...
+programmer 'E2009NRXLY' : Scan and Check Chain PASSED.
+programmer 'E2009NRXLY' : device 'MPFS095T' : Executing action PROGRAM
+Programmer 'E2009NRXLY' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT Algo_version[16] = 0002
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT IDCODE[32] = 0f8181cf
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT CRCERR[1] = 0
+programmer 'E2009NRXLY' : device 'MPFS095T' : Programming Mode: JTAG
+programmer 'E2009NRXLY' : device 'MPFS095T' : Programming FPGA Array and sNVM...
+programmer 'E2009NRXLY' : device 'MPFS095T' : Calculating component bitstream digests using programming file...
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT Fabric component bitstream digest[256] = 2230a5ae041306fbe736217480b86fa7d472c674470415885a7dcc76ea1a238f
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT sNVM component bitstream digest[256] = fb8994bd7d2ab270956f3257e634f776578f7fa6a4139c6d87f5a04034ec4acc
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT Entire bitstream digest[256] = d7c4175b6a78feb15e38ccf3c0c45cc48986aacebfb8d25046e61632a8457abe
+programmer 'E2009NRXLY' : device 'MPFS095T' : Reading digests for all the segments from the device...
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT CHECK FABRIC digest[256] = a93a33375df94c9a9c8d4e3c310dbcea284354ed8bc29f592dba00258991260e
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT CC digest[256] = 7bb9ee7298d1ab6526e3d9cfa9336e84d5bc35f054e065980dfbf108400ac052
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT SNVM digest[256] = d571b1763f44ef2657130977cc0f318c04be2fdfcd6aa98a14fa8f9e94676085
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UL digest[256] = 5f941d674eb881711f60b9e2b376123d7db511963f6ecd69aca3f0adf2d86900
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST0 digest[256] = ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST1 digest[256] = ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST2 digest[256] = 913106a5ba9907faedb561bcd7baaf9554cd44bc462db78c3dce64c59c6065ce
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST3 digest[256] = f7d1e185a2e443867472ad2dad4a761f20eb3eba0006d3f10d9e4e2918e76786
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST4 digest[256] = ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST5 digest[256] = 913106a5ba9907faedb561bcd7baaf9554cd44bc462db78c3dce64c59c6065ce
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST6 digest[256] = f7d1e185a2e443867472ad2dad4a761f20eb3eba0006d3f10d9e4e2918e76786
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UPERM digest[256] = 49a5818c4fff9561dff202eddf5d7b9dca9189afe8e0c6eb76de64f6726abb93
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT SYS digest[256] = bbc2f1f56b2763477fcc7382ef91b7aa85d64a9bfc01f56f86cfe5f64058f20d
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST7 digest[256] = f7d1e185a2e443867472ad2dad4a761f20eb3eba0006d3f10d9e4e2918e76786
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT ENVM digest[256] = ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST8 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST9 digest[256] = 24e58e26abd4a4ca46516d4614f6f4dddb7e9a4fed9e8439e1d7e5b0b56caa17
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT UKDIGEST10 digest[256] = f7d1e185a2e443867472ad2dad4a761f20eb3eba0006d3f10d9e4e2918e76786
+programmer 'E2009NRXLY' : device 'MPFS095T' : Please refer to System Services User Guide for more details about different digests.
+programmer 'E2009NRXLY' : device 'MPFS095T' : Design Name: chypnosis_top
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT CHECKSUM[16] = cc0e
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT READ_DESIGN_INFO: [288] = 000000000000000000000000000000000000000000706f745f7369736f6e70796863cc0e
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT DESIGNVER[16] = 0000
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT BACKLEVEL[16] = 0000
+programmer 'E2009NRXLY' : device 'MPFS095T' : ===================================================================================
+programmer 'E2009NRXLY' : device 'MPFS095T' : EXPORT DSN[128] = 04e22961f316cdc2cddf4629df172a82
+programmer 'E2009NRXLY' : device 'MPFS095T' : ===================================================================================
+programmer 'E2009NRXLY' : Finished: Thu Sep 11 14:50:35 2025 (Elapsed time 00:00:43)
+programmer 'E2009NRXLY' : device 'MPFS095T' : Executing action PROGRAM PASSED.
+programmer 'E2009NRXLY' : Chain programming PASSED.
+Chain Programming Finished: Thu Sep 11 14:50:35 2025 (Elapsed time 00:00:43)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

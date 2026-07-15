@@ -1,0 +1,4 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals
+Primitives/Primitives,81,32,16,1
+t0/CORESMIP_PF_C0_0/CORESMIP_PF_C0_0/Primitives,59,48,0,0

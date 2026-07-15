@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>chypnosis_top</design>
+	<target_verilog>C:\Users\KyleM\Documents\phd_shite\polarfire\chypnosis\synthesis\chypnosis_top.vm</target_verilog>
+</SynplifyOutput>
