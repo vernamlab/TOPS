@@ -27,7 +27,7 @@ ChypSnipe is a collection of hardware-security research projects targeting FPGA-
 ## Repository Structure
 
 ```
-ChypSnipe/
+TOPS/
 ├── Chypnosis/       # CW-Lite sweep scripts and OpenTitan UART tools
 ├── Chypothermia/    # cryogenic measurement notebooks
 └── GlitchSnipe/     # PDN profiling, TDC spatial mapping, and AES fault injection
